@@ -5,7 +5,18 @@
     composer require dandyraka/sgb-team-api
 
 ## Examples
-See examples [here](examples)
+```php
+<?php
+require __DIR__.'/vendor/autoload.php';
+
+use SgbTeam\SgbApi;
+
+$SGB = new SgbApi;
+$SGB->Key = "APIKEY";
+$SGB->Code = "SGB-KODEKAMU";
+echo $SGB->Connect();
+```
+See full examples [here](examples)
 
 ## Response
 - Code Valid:
