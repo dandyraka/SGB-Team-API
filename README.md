@@ -1,5 +1,12 @@
 # SGB Team API
 
+## Install
+
+    composer require dandyraka/SGB-Team-API
+
+## Examples
+See examples [here](examples)
+
 ## Response
 - Code Valid:
   
@@ -9,6 +16,6 @@
 
       { status: "fail" }
 
-Get API Key : contact admin!
-
-Get Secret Key : https://member.sgbteam.id/getsecret
+## Info
+    Get API Key : contact admin!
+    Get Secret Key : https://member.sgbteam.id/getsecret
