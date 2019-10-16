@@ -2,7 +2,7 @@
 
 ## Install
 
-    composer require dandyraka/SGB-Team-API
+    composer require dandyraka/sgb-team-api
 
 ## Examples
 See examples [here](examples)
