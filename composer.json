@@ -1,0 +1,22 @@
+{
+    "name": "dandyraka/sgb-team-api",
+    "description": "SGB Team Official API to check SGB Code validation",
+    "homepage": "https://github.com/dandyraka/SGB-Team-API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dandyraka",
+            "email": "dandyraka13@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "SgbTeam": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0"
+    }
+}
