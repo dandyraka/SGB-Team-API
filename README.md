@@ -1,4 +1,8 @@
 # SGB Team API
+[![Latest Stable Version](https://poser.pugx.org/dandyraka/sgb-team-api/v/stable)](https://packagist.org/packages/dandyraka/sgb-team-api)
+[![Total Downloads](https://poser.pugx.org/dandyraka/sgb-team-api/downloads)](https://packagist.org/packages/dandyraka/sgb-team-api)
+
+SGB Team Official API to check SGB Code validation
 
 ## Install
 
