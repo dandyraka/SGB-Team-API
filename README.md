@@ -4,6 +4,10 @@
 
 SGB Team Official API to check SGB Code validation
 
+## Requirement
+1. PHP >= 7.0
+2. **[Composer](https://getcomposer.org/)**
+
 ## Install
 
     composer require dandyraka/sgb-team-api
