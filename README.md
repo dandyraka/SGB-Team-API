@@ -45,6 +45,7 @@ maybe you can use it to absent regional members
 | --- | --- |
 | code | SGB Team Membership Code |
 | key | API Key given by Admin |
+| region | Member Region |
 
 ## Requirement
 1. PHP >= 7.0
