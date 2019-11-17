@@ -47,15 +47,25 @@ maybe you can use it to absent regional members
 | key | API Key given by Admin |
 | region | Member Region |
 
-## Requirement
+### Response
+| Status | JSON |
+| --- | --- |
+| Success | `{ status: "ok" }` |
+| Failed | `{ status: "fail" }` |
+
+
+---
+
+## Back to This Repo
+### Requirement
 1. PHP >= 7.0
 2. **[Composer](https://getcomposer.org/)**
 
-## Install
+### Install
 
     composer require dandyraka/sgb-team-api
 
-## Examples
+### Examples
 ```php
 <?php
 require __DIR__.'/vendor/autoload.php';
@@ -69,15 +79,6 @@ echo $SGB->Connect();
 ```
 See full examples [here](examples)
 
-## Response
-- Code Valid:
-  
-      { status: "ok" }
-
-- Code Invalid
-
-      { status: "fail" }
-
-## Info
+### Info
     Get API Key : contact admin!
     Get Secret Key : https://member.sgbteam.id/getsecret
