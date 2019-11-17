@@ -33,7 +33,7 @@ SGB Team Official API to check SGB Code validation
 
 ### Web Based (Region)
 
-maybe you can use it to absent regional members
+Maybe you can use it for absent regional members
 
 |||
 | --- | --- |
@@ -52,7 +52,6 @@ maybe you can use it to absent regional members
 | --- | --- |
 | Success | `{ status: "ok" }` |
 | Failed | `{ status: "fail" }` |
-
 
 ---
 
