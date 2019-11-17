@@ -4,6 +4,48 @@
 
 SGB Team Official API to check SGB Code validation
 
+## Docs API
+### Web Based
+
+|||
+| --- | --- |
+| HTTP Method | POST |
+| Response Format | JSON |
+| API URL | https://api.sgbteam.id/ |
+
+| Parameter | Description |
+| --- | --- |
+| code | SGB Team Membership Code |
+| key | API Key given by Admin |
+
+### CLI Based
+
+|||
+| --- | --- |
+| HTTP Method | POST |
+| Response Format | JSON |
+| API URL | https://api.sgbteam.id/cli.php |
+
+| Parameter | Description |
+| --- | --- |
+| code | SGB Team Membership Code |
+| secret_key | SGB Team Membership Secret Key |
+
+### Web Based (Region)
+
+maybe you can use it to absent regional members
+
+|||
+| --- | --- |
+| HTTP Method | POST |
+| Response Format | JSON |
+| API URL | https://api.sgbteam.id/absenReg.php |
+
+| Parameter | Description |
+| --- | --- |
+| code | SGB Team Membership Code |
+| key | API Key given by Admin |
+
 ## Requirement
 1. PHP >= 7.0
 2. **[Composer](https://getcomposer.org/)**
