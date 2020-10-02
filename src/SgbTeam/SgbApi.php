@@ -5,6 +5,7 @@ use GuzzleHttp\Client;
 
 class SgbApi
 {
+    const SGBAPI = 'https://api.sgbteam.id/';
     public $Code;
     public $Key;
     public $SecretKey;
@@ -37,7 +38,7 @@ class SgbApi
             'headers' => $headers
         ]);
         $send = $client->post(
-            'https://api.sgbteam.id/',
+            self::SGBAPI,
             array(
                 'form_params' => array(
                     'code' => $this->Code,
@@ -56,7 +57,7 @@ class SgbApi
             'headers' => $headers
         ]);
         $send = $client->post(
-            'https://api.sgbteam.id/absenReg.php',
+            self::SGBAPI.'absenReg.php',
             array(
                 'form_params' => array(
                     'code' => $this->Code,
@@ -73,7 +74,7 @@ class SgbApi
     {
         $client = new Client();
         $send = $client->post(
-            'https://api.sgbteam.id/cli.php',
+            self::SGBAPI.'cli.php',
             array(
                 'form_params' => array(
                     'code' => $this->Code,
